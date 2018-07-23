@@ -6,19 +6,48 @@ const jwtClientId = exports.jwtClientId = '2vh7bo0vgbbkp3ehzb9kfwty16rmnqm7';
 const jwtClientSecret = exports.jwtClientSecret = 'pNJpnUEz8auL2ylw5rYko1JvpUiFeD7D';
 
 // Account information
-const publicKeyId = exports.publicKeyId = '6rqewzls';
+const publicKeyId = exports.publicKeyId = 'xywsapr3';
 const enterpriseId = exports.enterpriseId = '65117761';
 
 // Keys
 const keyPath = exports.privateKeyPath = 'private.pem';
-const keyPass = exports.keyPass = 'e8310321ca50a50eea935f1b64f46d62';
-const keySecret = '-----BEGIN ENCRYPTED PRIVATE KEY-----\nMIIFDjBABgkqhkiG9w0BBQ0wMzAbBgkqhkiG9w0BBQwwDgQIDD3LbJ/7VYkCAggA\nMBQGCCqGSIb3DQMHBAiM3n9Sgc27xwSCBMiJMWxpHT4/AnkFfulA4Tb7HVdO1L01\nV//aZ9HdHXFI3psqlSmf8x6c7VdYDSm9Nyba+iKT8HB7d9glCkUlfGwNcxOAed8Q\n/7JE2/LZijLBSY2HLVxVzbo+/GFjpiHO4CSmFRJVrT5akwMkZjEgZpDJ0zKOm4NE\nSsy+bjOH9wVfnJ8DnTCzyq/0cwzR1SPHwH7bSxV3rdeFeCZ5ZLvB6kDgVLAt3Dzr\nJi101I3DiU7U2KHVhRW7TsNG8W2hZQuZ6IbJfROkOYXeaeETOJDdE6fYyKjaB+xM\nz4JR13rCrZS/bJCsqKW4kR/rA7V9BRmHphpwUYy2syySborUZIHsbVqtwrhgN1MT\nrU77Ny5A1Vfy8yzcgV8Zz05pQfi1EnUZTEEQ/bmxKp2DLQII+RSwM7xoYcIfQt27\neIDWKHA4Y2hvdCxIyox1dZfiXzzuyXMUpXZhfhiMwC7rbOnPBR3moArxx9oRNx3/\nnPQ/JhL1nZy0JmI8eHCot+mDrmKROLV9PSv5NWbKxGvCBfRJ6g60kIp4bFHWIwYR\n3glQ5gKuGNgp/2Wtx1MzgwOlR8RtJ1ADaRlB4SX+Lrnw0bQLc5azOJ0NMNbdsEAP\nrigfFrOx1E/3fD6ngswcd40ilR8kCx3ki8Mp/hVkdba4EGtah8yyPnoNn9ArlTOA\nlUGmi4EYSUJP60XhF25WxIQMqayA4I9EBUJ6zhcTYNrFZmKyzzxpFMnSdmVz5aoA\nioXvlgMffV8GFZ9vv0RSHm1Hdw7zaWwjXhAe+JG9w1t2LdXcPU7d0CzfaMRIxalI\nkOYfq1FZBwU8OgdmFfuaZWQHBYBA2GVk81QJYm3ZcBa1SlQ+zeFIjcu0v1Szlr6V\n6abxe8N8wN+rW/3YjcLcqSkAtGvwAgHCIWTpuV0/mJiOprQtFp6fXKb0lsanRWzB\ndMZjlLwaUgVlFkDTUxNp+Xjlbn5R9ke35Hpv2u/Cy2UM/P79dd61WDg1bQkK9QY2\n1DzVOB25kGr3dHBd+A3Kp7a1V3MurwVQYKsRdRA4xvtjko8vPyBfFdN1IcX2ePp5\n6Q1I+HfGmj+fjggOAdeq7ffodiG7tkKKugwstdGITR41yXd9+n1Qtycx6/9NvMyL\nyBJ6rG0VeiJAOF5mf+RLgXP2p1Iemns6be3CoWZftfI8Z4Ebcr5X3tqalX9HEEoW\n6XtySReHOjoKb6H2v++1FWyjfhGMt9DAWgx7VF1l9d0IeTp6V5MuvPgnxW7y9Kp1\n5gxlun5/Co0AmwKw+w1n3FSb7/IaYbftImbrfHtAcqLTTFPcnulbCYOZ0E8iljHP\nkcGIEiiXn3Ukb5kumde4Tt1FIbwnxGJAzhXiZ5UkogAK1yr1jhKNMJp6tr3kpgMY\nGNQDvBhxYTBZJ/HLrOcesUGRjdg/EDBDArXS05ypoRtV/SwFthXkCj9dbS18sp5F\nzVN2nlKiyeyc7RWxqL5Vdx+qVm4Z8RLqIO+5WrulSeeRJpAudTb/wKMdH2bEiU6T\nYky1Ca2MklB6OrGv92hdvBoqvshIgBtvrD79QmptBskAhIqKUckp7NGENKT9TreD\njpXvoDWFWAdg3PgJF1qIxPxzDQOTwl8qHvWNAHWV8tyI+YsLhk+MXs+G/2tA3XDp\nRKY=\n-----END ENCRYPTED PRIVATE KEY-----\n';
+const keyPass = exports.keyPass = '2d11d8c2c8a1418563dd2e909732bbef';
+const privKey = exports.privKey = '-----BEGIN ENCRYPTED PRIVATE KEY-----\n'+
+'MIIFDjBABgkqhkiG9w0BBQ0wMzAbBgkqhkiG9w0BBQwwDgQIWPisOiA83LwCAggA\n'+
+'MBQGCCqGSIb3DQMHBAiGdcf0uzBmAASCBMge7Xl6WAhlXbGn+lSI2T5F13hT0zSg\n'+
+'gs9oxvtiy9pwksk6ghggJMXHrgEMHSmCk4xRWRZ8OrcVPQkniX53hk/Udn67xRQ3\n'+
+'s7s0ihFJpw+5KbGrE55b5uUVk9l89mDGVvfgDJ+0yrUcKvWotDilWlDkcCdnc7XI\n'+
+'dmZ0ew0i8FTYWLVwHx79oNKSmKHIeaxJL58yam1JpU/b404BBHsjbw9icAJnVWL7\n'+
+'9ZotvyuNB46n2LmFs/wsxMT4WpWEmmKWFihqK19/qoN0RnBDVM86eqF48qD/Wnyg\n'+
+'2tMs6HuDOYWnfN0CrvrBgvMPTsrGsz3mk8qSWiPKnT8jyEWUWkdzTOh32sLwNA8k\n'+
+'lPPmYvRQLe/a2IvL3Xd7MtN+DZy68BLcs4p18PF2+m3u+JJ79rQsfzeJ3kUD5HqL\n'+
+'8K4Cnsld3R3A7XHwQZlHRdQmYYwSXZI15IC4C8aBhHZ9czGmP055aa6R+237wh5I\n'+
+'3U2OOzvbTW+7kBwixA/eF7gjjc19xxWLXb47b+mt4pZrxKq/5BmMHCg3+S+VoSDg\n'+
+'WSVptoJwo0DQ9qxzLzUgaBWpdT2VZ3VCR8Jm5wVTkX0LCi5jglNHXp93fmcZDNNS\n'+
+'3ymjaFLxUhhOEwHtpap+XAiG9aWJwG1YbjmcL7G1Yk0mLmK2syZMYNmKvhzCi3mD\n'+
+'0GRg5zumIsjHB1uWwinMvs0XM2exOc6fGwZz3kpGkqPM6dxz9XaTDiVEDrxYcVkH\n'+
+'nhdpIlypM8ipjsl2P6yStkKdOH5RdA41pePagkC4imeQee+n7m814V/1BVBuKMq1\n'+
+'VqtKRv7RvWpOLklglVQf87YGaqWqvFKfMCp1mhWCTNLXCNlhrLri81I9uONYxwtQ\n'+
+'BdP28s3vg3xO8OEDkl7EhmCYeEdNUEEeqCOwT8wfwQPUnAN7wWYNTgDDbDB1Pi7P\n'+
+'kxz1fD/T+UzyaNHC0SVtdMFrxIW9qfllzB34kYyws9VXir2QeiyF518OH0BlCvDK\n'+
+'ydkadFceTSqcmJTM2j4vYluoGpmUcYSdgm2rfqph2arz/OFEEngnH5sRQLUVEXgu\n'+
+'u0DW3hydPVg+HHe68hjYJhFFmza+SnWEfbOsJCDolZ3WckdIsLWiIo0hdPucwBYA\n'+
+'M7N8LXxDjj0yEZFu0KY7kJsJ0lNjMKWMJV/GHqn31gAeFT0OfNkDGKsXI1mK5p0D\n'+
+'ABubMdtHrOhMU2wZOlb6TTiXbjJPVJFVD+jpIET0EzE623TRkarbEzV53AX3sN3r\n'+
+'MhNyFdJLoMe4FydrGYvpfajZvrbQBCZ9ll+4GMMitK4eiM+yhK/7WsY8iZ7Ty6c5\n'+
+'rNCmOUoqcUytUlYXeE+I4gFd8YLdGdzEZHD4USybDyFpr7HS7zF4YZ8fwFUXGBeD\n'+
+'wH0Unoq5qUT9RLwQNDRc9lHNi5IZFfyR8vHfKEYzv/HCLd8jH05tBfmlmQ4FDKK1\n'+
+'zPANUTq2zYjpfpzPKxRSZ3CevuemurxV5H0RdSifoq6B4VS/ydk7J2EZQYpb5yiG\n'+
+'3GzzE7SwCvWmNdr8f1ybblFz6Z9bnc6vDtMG0HflhQYUa1O0e9y/lnLx3u13PPhp\n'+
+'nTSPPoI4xayQtAzpM/jqeXJi/l2LYMUwVz6nYcXAvqZEV//6gz8d+c213QDDRThu\n'+
+'YZo=\n-----END ENCRYPTED PRIVATE KEY-----\n';
+const keySecret = '2d11d8c2c8a1418563dd2e909732bbef';
 
 // Element UI Scopes
 const tokenScopes = exports.tokenScopes = {
-  contentExplorer: 'base_explorer item_preview item_download item_share', 
-  contentPicker: 'base_picker item_share item_upload', 
-  contentPreview: 'base_preview item_download annotation_edit annotation_view_all annotation_view_self', 
+  contentExplorer: 'base_explorer item_preview item_download item_share',
+  contentPicker: 'base_picker item_share item_upload',
+  contentPreview: 'base_preview item_download annotation_edit annotation_view_all annotation_view_self',
   contentUploader: 'base_upload'
 }
 

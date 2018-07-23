@@ -18,6 +18,7 @@
     "pikaday": "1.6.1",
     "prop-types": "15.5.4",
     "properties-parser": "0.3.1",
+    "raw-loader": "^0.5.1",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-draggable": "3.0.4",
